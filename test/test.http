@@ -1,0 +1,33 @@
+###
+GET localhost:9000/api/todos
+
+###
+POST localhost:9000/api/todos
+content-type: application/json
+
+{
+  "body": "parfums"
+}
+
+###
+POST localhost:9000/api/todos
+content-type: application/json
+
+{
+  "body": "de"
+}
+
+###
+POST localhost:9000/api/todos
+content-type: application/json
+
+{
+  "body": "marly"
+}
+
+###
+PATCH localhost:9000/api/todos/1
+
+###
+DELETE localhost:9000/api/todos/delete/2
+
